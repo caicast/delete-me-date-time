@@ -6,13 +6,27 @@
 
 body {
   font-family: 'Tanker', sans-serif;
-  font-size: 8rem;
+  transition: background .5s;
 }
 
+a {
+/*   display: none; */
+  background:red;
+}
+
+.dark {
+  background: darkgrey;
+  color: whitesmoke;
+  
+}
+
+/*  */
 main {
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
   flex-direction: column;
 
   height: 100vh;

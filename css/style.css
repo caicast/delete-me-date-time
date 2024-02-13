@@ -1,5 +1,4 @@
 /* Diagnostic */
-
 * {
   outline: 1px dotted darkgray;
 }
@@ -20,14 +19,22 @@ a {
   
 }
 
-/*  */
+/* CSS Grid */
 main {
   font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  display: grid;
+  gap: .5em;
+  
+/*   grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+}
 
-  flex-direction: column;
+time {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
-  height: 100vh;
+data {
+  text-align: center;
 }

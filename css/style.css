@@ -8,3 +8,9 @@ body {
   font-family: 'Tanker', sans-serif
   font-size: 8rem;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

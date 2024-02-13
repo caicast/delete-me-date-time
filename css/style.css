@@ -11,12 +11,12 @@ body {
 
 a {
 /*   display: none; */
-  background:red;
+  background:rgb(141, 202, 187);
 }
 
 .dark {
-  background: darkgrey;
-  color: whitesmoke;
+  background: rgb(63, 63, 63);
+  color: rgb(255, 201, 85);
   
 }
 
